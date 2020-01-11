@@ -1,1 +1,0 @@
-The dataset consists of 47 letters and 10 digits of Modi Script.
