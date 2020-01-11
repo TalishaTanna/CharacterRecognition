@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_md"
+    android:paddingLeft="@dimen/margin_md"
+    android:paddingRight="@dimen/margin_md"
+    android:paddingTop="@dimen/margin_md"
+    android:background="@drawable/modi"
+    tools:context=".Choices">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="170dp"
+    tools:layout_editor_absoluteY="51dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/choose"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_md"
+        android:paddingTop="@dimen/margin_md"
+        android:layout_margin="10dp"
+        android:text="Upload Image" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin_md"
+        android:layout_margin="10dp"
+        android:paddingBottom="@dimen/margin_md"
+        android:text="Paint" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingBottom="@dimen/margin_md"
+        android:paddingTop="@dimen/margin_md"
+        android:text="Capture Image" />
+</LinearLayout>
+
